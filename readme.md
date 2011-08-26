@@ -1,15 +1,18 @@
 What is this?
 =============
-This is a simple php file to make a clone of a GitHub repo to a server, and later make pulls from it.
+
+This is a simple `.php` file to make a clone of a GitHub repo to a server and afterwards it is possible pull aswell.
 
 Why?
-====
-Im sick and tied that my webhost company dont have git installed so I can make pull commands, and update my things.
+----
 
-I had to remove all, copy all and then config all agian becouse I forget what version it is and what I have done since last time i updated the server.
+Im sick and tired that my webhost company does not have git installed so I can make git commands, and update my things.
+
+I had to remove all, copy all and then configure all again because I forgot the version i was using and what I had done since last time i updated the server.
 
 How does it work
-================
+----------------
+
 Inside the php file in the top there are some configurations and you should set them to your own needs and then browse to the file.
 
 Here will be two options "clone" and "pull". 
@@ -21,12 +24,13 @@ The pull option will check against the .txt file made in "clone" and then find n
 Both options will echo out a log of what it has done for you.
 
 TODO's
-======
-* make it work on private repo's
-* make some kind of secrurity ?
-* code cleanup!
-* make that daam flush thig work ....
-* MORE DAAM TESTING
+------
+
+* Make it work on private repo's
+* Make some kind of security ?
+* Code cleanup!
+* Make that damn flush thing work ....
+* MORE DAMN TESTING
 
 more?
 
